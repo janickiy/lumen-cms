@@ -1,0 +1,29 @@
+{
+    "name": "rowboat/editor",
+    "description": "Rowboat Platform Editor",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "John Kobinski",
+            "email": "john@rowboatsoftware.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rowboat\\Editor\\": "src/"
+        }
+    },
+    "autoload-dev": {
+    	"psr-4": {
+        	"Rowboat\\Editor\\Test\\": "tests/"
+    	}
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.3",
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.0",
+    },
+}
